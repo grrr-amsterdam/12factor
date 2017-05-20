@@ -1,4 +1,6 @@
 #!/bin/sh
+# @author David Spreekmeester <david@grrr.nl>
+
 function loaddotenv {
     if [ -z "$1" ]; then
         local file='.env'
